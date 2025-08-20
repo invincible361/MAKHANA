@@ -125,7 +125,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--white);
+    background-color: var(--primary-color);
     box-shadow: var(--shadow-md);
     z-index: 1000;
     padding: var(--spacing-md) 0;
@@ -141,16 +141,17 @@ p {
 }
 
 .nav-logo h2 {
-    color: var(--primary-color);
+    color: var(--white);
     margin: 0;
 }
 
 .logo-tagline {
     font-size: 0.8rem;
-    color: var(--gray);
+    color: var(--white);
     font-weight: 400;
     display: block;
     margin-top: -5px;
+    opacity: 0.9;
 }
 
 .nav-menu {
@@ -159,7 +160,7 @@ p {
 }
 
 .nav-link {
-    color: var(--dark-gray);
+    color: var(--white);
     text-decoration: none;
     font-weight: 500;
     transition: var(--transition);
@@ -167,7 +168,7 @@ p {
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: var(--primary-light);
 }
 
 .nav-link::after {
@@ -194,9 +195,10 @@ p {
 .search-container {
     display: flex;
     align-items: center;
-    background-color: var(--light-gray);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: var(--border-radius);
     padding: var(--spacing-sm);
+    backdrop-filter: blur(10px);
 }
 
 .search-container input {
@@ -205,6 +207,11 @@ p {
     padding: var(--spacing-sm);
     outline: none;
     width: 200px;
+    color: var(--white);
+}
+
+.search-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .search-container button {
