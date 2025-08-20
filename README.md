@@ -28,7 +28,7 @@ A comprehensive e-commerce website for Bite On's premium Makhana (Phool Makhana)
 ## 🏗️ Project Structure
 
 ```
-makhana/
+makahani/
 ├── index.html              # Main HTML file
 ├── public/
 │   ├── css/
@@ -86,10 +86,10 @@ The website is fully responsive and optimized for:
 ## 🛍️ E-commerce Features
 
 ### Product Management
-- **Product Catalog**: 4 sample products with detailed information
+- **Product Catalog**: 5 detailed products with comprehensive information
 - **Categories**: Raw Makhana, Flavored Makhana, Premium
 - **Filtering**: By category and sorting options
-- **Search**: Full-text search across products
+- **Search**: Full-text search across products and features
 
 ### Shopping Cart
 - **Add to Cart**: One-click product addition
@@ -102,6 +102,7 @@ The website is fully responsive and optimized for:
 - **Interactive Elements**: Hover effects and animations
 - **Notifications**: Success messages for cart actions
 - **Modal Dialogs**: Clean, accessible popups
+- **Product Details**: Comprehensive product information modals
 
 ## 📊 Content Sections
 
@@ -116,19 +117,19 @@ The website is fully responsive and optimized for:
 - **Branding Strategy**: How to use GI tags in marketing
 - **Example Messaging**: Sample taglines and copy
 - **Audience Benefits**: Why GI tags matter to different customers
-- **Mithila Region**: Key production districts
+- **Mithila Region**: Key production districts (Darbhanga, Madhubani, Purnia, etc.)
 
 ### Market Trends
-- **India Market**: 2023-2033 growth projections
-- **Global Market**: USD growth from 43.6M to 96.8M
-- **Quick Commerce**: 25x growth potential
+- **India Market**: 2023-2033 growth projections (INR 8.5B to 19.6B)
+- **Global Market**: USD growth from 43.6M to 96.8M by 2033
+- **Quick Commerce**: 25x growth potential by 2025
 - **Regional Analysis**: Consumption patterns across India
 
 ### Cost Structure
-- **Transparent Pricing**: Complete cost breakdown
+- **Transparent Pricing**: Complete cost breakdown for 250g pouch
 - **Channel Comparison**: E-commerce vs offline vs D2C
 - **Profit Margins**: 26-32% across channels
-- **Product Cost Details**: Raw materials, labor, packaging
+- **Product Cost Details**: Raw materials, labor, packaging breakdown
 
 ## 🔧 Customization
 
@@ -137,7 +138,7 @@ Edit the `products` array in `public/js/main.js`:
 ```javascript
 const products = [
     {
-        id: 5,
+        id: 6,
         name: "New Product Name",
         category: "category-name",
         price: 400,
