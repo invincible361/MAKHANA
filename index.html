@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Makhana - Pure & Traditional Food Products</title>
+    <title>Bite On - Premium Makhana (Phool Makhana) | GI-Tagged Mithila Makhana</title>
+    <meta name="description" content="Discover premium Makhana (Fox Nuts) from Bite On. GI-tagged Mithila Makhana from Bihar, India. Low calorie, high protein superfood for weight management, diabetics, and heart health.">
     <link rel="stylesheet" href="public/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -14,13 +15,16 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Makhana</h2>
+                <h2>Bite On</h2>
+                <span class="logo-tagline">Premium Makhana</span>
             </div>
             
             <div class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link">Home</a>
+                <a href="#about-makhana" class="nav-link">About Makhana</a>
                 <a href="#products" class="nav-link">Products</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#gi-tag" class="nav-link">GI Tag Story</a>
+                <a href="#market-trends" class="nav-link">Market Trends</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             
@@ -54,14 +58,30 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Pure & Traditional Food Products</h1>
-            <p>Discover the authentic taste of Makhana and other traditional Indian food products</p>
-            <button class="btn btn-primary btn-large" onclick="scrollToSection('products')">
-                Shop Now
-            </button>
+            <div class="gi-badge">
+                <i class="fas fa-certificate"></i>
+                <span>GI-Tagged Mithila Makhana</span>
+            </div>
+            <h1>Bite On Premium Makhana</h1>
+            <p class="hero-subtitle">Traditional Indian Superfood from the Heart of Mithila</p>
+            <p class="hero-description">Discover the authentic taste of Makhana (Fox Nuts), a centuries-old superfood rich in protein, low in calories, and perfect for weight management, diabetics, and heart health.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-large" onclick="scrollToSection('products')">
+                    Shop Now
+                </button>
+                <button class="btn btn-outline btn-large" onclick="scrollToSection('about-makhana')">
+                    Learn More
+                </button>
+            </div>
         </div>
         <div class="hero-image">
-            <img src="public/images/hero-makhana.jpg" alt="Makhana Products" onerror="this.src='https://via.placeholder.com/600x400/22c55e/ffffff?text=Makhana+Products'">
+            <img src="public/images/hero-makhana.jpg" alt="Premium Mithila Makhana" onerror="this.src='https://via.placeholder.com/600x400/22c55e/ffffff?text=Premium+Mithila+Makhana'">
+            <div class="hero-overlay">
+                <div class="overlay-content">
+                    <h3>From the Ponds of Mithila</h3>
+                    <p>Hand-harvested using centuries-old traditions</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -75,19 +95,216 @@
                     <p>Pure and natural ingredients without any artificial additives</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-shipping-fast"></i>
-                    <h3>Fast Delivery</h3>
-                    <p>Quick and reliable delivery across India</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Quality Assured</h3>
-                    <p>Premium quality products with strict quality control</p>
+                    <i class="fas fa-certificate"></i>
+                    <h3>GI-Tagged</h3>
+                    <p>Authentic Mithila Makhana with geographical indication certification</p>
                 </div>
                 <div class="feature-card">
                     <i class="fas fa-heart"></i>
-                    <h3>Customer First</h3>
-                    <p>Dedicated customer support and satisfaction guarantee</p>
+                    <h3>Heart Healthy</h3>
+                    <p>Low glycemic index, perfect for diabetics and heart health</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Protein Rich</h3>
+                    <p>High protein content ideal for athletes and fitness enthusiasts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Makhana Section -->
+    <section id="about-makhana" class="about-makhana">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Product</h2>
+                <p>Discover the ancient wisdom of Makhana, a traditional Indian superfood</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>What is Makhana?</h3>
+                    <p>Makhana, also known as Fox Nuts or Lotus Seeds, is a traditional Indian superfood derived from the seeds of the Euryale Ferox plant, predominantly grown in the wetlands of Bihar, India, especially the Mithilanchal region.</p>
+                    
+                    <h3>Nutritional Value & Health Benefits</h3>
+                    <p>Makhana is low in calories, high in protein, gluten-free, and rich in essential nutrients like calcium, potassium, magnesium, phosphorus, and antioxidants.</p>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-weight"></i>
+                            <h4>Weight Management</h4>
+                            <p>Low fat and high fiber content</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-heartbeat"></i>
+                            <h4>Diabetic Friendly</h4>
+                            <p>Low glycemic index</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-heart"></i>
+                            <h4>Heart Health</h4>
+                            <p>Anti-inflammatory and cholesterol-lowering properties</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-running"></i>
+                            <h4>Athlete's Choice</h4>
+                            <p>Light yet protein-rich snack</p>
+                        </div>
+                    </div>
+                    
+                    <p class="highlight-text">This makes Makhana a superfood of the future, offering both taste and health in every bite.</p>
+                </div>
+                <div class="about-image">
+                    <img src="public/images/makhana-plant.jpg" alt="Makhana Plant" onerror="this.src='https://via.placeholder.com/500x400/22c55e/ffffff?text=Makhana+Plant'">
+                    <div class="image-caption">
+                        <p>Euryale Ferox plant - Source of Makhana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GI Tag Story Section -->
+    <section id="gi-tag" class="gi-tag-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>GI-Tagged Mithila Makhana</h2>
+                <p>The Story of Authenticity and Tradition</p>
+            </div>
+            
+            <div class="gi-content">
+                <div class="gi-story">
+                    <div class="gi-badge-large">
+                        <i class="fas fa-certificate"></i>
+                        <span>Geographical Indication</span>
+                    </div>
+                    <h3>What is GI-Tag Storytelling in Branding?</h3>
+                    <p>It's when you highlight the regional legacy and traditional craft of your product in your packaging, marketing, and story.</p>
+                    
+                    <div class="gi-examples">
+                        <div class="gi-example">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>"Sourced from the ponds of Mithila, hand-harvested using centuries-old traditions."</p>
+                        </div>
+                        <div class="gi-example">
+                            <i class="fas fa-history"></i>
+                            <p>"Mithila Makhana – a GI-tagged superfood, cherished since ancient times."</p>
+                        </div>
+                    </div>
+                    
+                    <h4>Why This Matters</h4>
+                    <div class="audience-benefits">
+                        <div class="benefit-row">
+                            <div class="audience-type">
+                                <strong>Urban Indians</strong>
+                                <p>GI = Authentic, clean origin, healthier</p>
+                            </div>
+                            <div class="audience-type">
+                                <strong>Export Buyers</strong>
+                                <p>GI = Trustworthy source, real Indian product</p>
+                            </div>
+                        </div>
+                        <div class="benefit-row">
+                            <div class="audience-type">
+                                <strong>Premium Snackers</strong>
+                                <p>GI = "Special", not generic makhana</p>
+                            </div>
+                            <div class="audience-type">
+                                <strong>Retailers</strong>
+                                <p>GI = Helps in product differentiation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gi-visual">
+                    <div class="mithila-map">
+                        <h4>Mithila Region</h4>
+                        <div class="region-list">
+                            <span class="region-item">Darbhanga</span>
+                            <span class="region-item">Madhubani</span>
+                            <span class="region-item">Purnia</span>
+                            <span class="region-item">Katihar</span>
+                            <span class="region-item">Saharsa</span>
+                        </div>
+                        <p class="region-note">*Produces 85-90% of India's Makhana supply</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Trends Section -->
+    <section id="market-trends" class="market-trends">
+        <div class="container">
+            <div class="section-header">
+                <h2>Market Trends & Growth</h2>
+                <p>Understanding the booming Makhana market in India and globally</p>
+            </div>
+            
+            <div class="trends-content">
+                <div class="trend-card">
+                    <h3>Demand Growth in India</h3>
+                    <div class="trend-data">
+                        <div class="data-row">
+                            <span class="year">2023</span>
+                            <span class="market-size">INR 8.5 billion / ~66 kt</span>
+                            <span class="notes">Base-year consumption</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="year">2025-2033</span>
+                            <span class="market-size">INR 19.6 billion / ~90 kt</span>
+                            <span class="notes">~9.2% CAGR</span>
+                        </div>
+                    </div>
+                    <p class="trend-note">Driven by rising health-food demand</p>
+                </div>
+                
+                <div class="trend-card">
+                    <h3>Global Market Growth</h3>
+                    <div class="trend-data">
+                        <div class="data-row">
+                            <span class="year">Current</span>
+                            <span class="market-size">USD 43.6M</span>
+                            <span class="notes">Base year</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="year">2033</span>
+                            <span class="market-size">USD 96.8M</span>
+                            <span class="notes">~8.3% CAGR</span>
+                        </div>
+                    </div>
+                    <p class="trend-note">Health & wellness consumer trends</p>
+                </div>
+                
+                <div class="trend-card">
+                    <h3>Quick Commerce Surge</h3>
+                    <div class="trend-data">
+                        <div class="data-row">
+                            <span class="year">2025 Summer</span>
+                            <span class="market-size">Up to 25× growth</span>
+                            <span class="notes">Extremely fast uptake</span>
+                        </div>
+                    </div>
+                    <p class="trend-note">On quick commerce platforms</p>
+                </div>
+            </div>
+            
+            <div class="consumption-regions">
+                <h3>Consumption by Region (Within India)</h3>
+                <div class="region-analysis">
+                    <div class="region-item">
+                        <h4>North India</h4>
+                        <p>Leads in consumption, especially branded and premium packaged makhana—thanks to both high health awareness and availability through modern trade and online channels.</p>
+                    </div>
+                    <div class="region-item">
+                        <h4>Western & Southern States</h4>
+                        <p>Maharashtra, Gujarat, Tamil Nadu, Karnataka are reporting growing demand post-2025 budget publicity and export interest.</p>
+                    </div>
+                    <div class="region-item">
+                        <h4>Urban vs Rural</h4>
+                        <p>Domestic sales are still dominated by urban markets with branded products, but rural demand is closing in, driven by FMCG penetration, income support schemes, and affordability.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,8 +314,8 @@
     <section id="products" class="products">
         <div class="container">
             <div class="section-header">
-                <h2>Our Products</h2>
-                <p>Discover our collection of pure and traditional food products</p>
+                <h2>Our Premium Products</h2>
+                <p>Discover our collection of authentic Mithila Makhana</p>
             </div>
             
             <div class="products-filters">
@@ -106,10 +323,9 @@
                     <label for="category-filter">Category:</label>
                     <select id="category-filter">
                         <option value="all">All Products</option>
-                        <option value="makhana">Makhana</option>
-                        <option value="traditional">Traditional</option>
-                        <option value="snacks">Snacks</option>
-                        <option value="dry-fruits">Dry Fruits</option>
+                        <option value="raw-makhana">Raw Makhana</option>
+                        <option value="flavored-makhana">Flavored Makhana</option>
+                        <option value="premium">Premium Pack</option>
                     </select>
                 </div>
                 
@@ -130,18 +346,90 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Cost Structure Section -->
+    <section class="cost-structure">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Makhana</h2>
-                    <p>We are passionate about bringing you the finest quality Makhana and traditional food products. Our journey began with a simple mission: to provide pure, authentic, and healthy food options to our customers.</p>
-                    <p>With years of experience in sourcing and processing, we ensure that every product meets our high standards of quality and purity. We work directly with farmers and use traditional methods to preserve the natural goodness of our products.</p>
-                    <button class="btn btn-primary">Learn More</button>
+            <div class="section-header">
+                <h2>Transparent Pricing</h2>
+                <p>Understanding our cost structure for 250g Makhana Pouch (MRP ₹350)</p>
+            </div>
+            
+            <div class="cost-breakdown">
+                <div class="cost-table">
+                    <h3>Cost Breakdown</h3>
+                    <div class="table-header">
+                        <span>Cost Component</span>
+                        <span>E-commerce</span>
+                        <span>Offline Retail</span>
+                        <span>Own Website (D2C)</span>
+                    </div>
+                    <div class="table-row">
+                        <span>Product Cost</span>
+                        <span>₹183.50</span>
+                        <span>₹183.50</span>
+                        <span>₹183.50</span>
+                    </div>
+                    <div class="table-row">
+                        <span>Shipping/Delivery</span>
+                        <span>₹70.80</span>
+                        <span>₹5.00</span>
+                        <span>₹55.00</span>
+                    </div>
+                    <div class="table-row">
+                        <span>Platform/Channel Charges</span>
+                        <span>Included</span>
+                        <span>₹70.00</span>
+                        <span>₹0.88</span>
+                    </div>
+                    <div class="table-row total-row">
+                        <span>Total Cost</span>
+                        <span>₹254.30</span>
+                        <span>₹258.50</span>
+                        <span>₹239.38</span>
+                    </div>
+                    <div class="table-row">
+                        <span>Selling Price (MRP)</span>
+                        <span>₹350.00</span>
+                        <span>₹350.00</span>
+                        <span>₹350.00</span>
+                    </div>
+                    <div class="table-row profit-row">
+                        <span>Profit per Unit</span>
+                        <span>₹95.70</span>
+                        <span>₹91.50</span>
+                        <span>₹110.62</span>
+                    </div>
+                    <div class="table-row">
+                        <span>Profit Margin %</span>
+                        <span>27.34%</span>
+                        <span>26.14%</span>
+                        <span>31.61%</span>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="images/about-makhana.jpg" alt="About Makhana" onerror="this.src='https://via.placeholder.com/500x400/22c55e/ffffff?text=About+Makhana'">
+                
+                <div class="product-cost-details">
+                    <h3>Product Cost Details (250g)</h3>
+                    <div class="cost-item">
+                        <span>Raw Makhana:</span>
+                        <span>₹125.00</span>
+                    </div>
+                    <div class="cost-item">
+                        <span>Flavours:</span>
+                        <span>₹35.00</span>
+                        <small>(Not needed for raw makhana)</small>
+                    </div>
+                    <div class="cost-item">
+                        <span>Labour:</span>
+                        <span>₹12.50</span>
+                    </div>
+                    <div class="cost-item">
+                        <span>Packaging:</span>
+                        <span>₹11.00</span>
+                    </div>
+                    <div class="cost-item total">
+                        <span>Total:</span>
+                        <span>₹183.50</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,7 +449,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Address</h4>
-                            <p>123 Food Street, Traditional Market<br>Delhi, India 110001</p>
+                            <p>Bite On Headquarters<br>Mithila Region, Bihar, India</p>
                         </div>
                     </div>
                     
@@ -177,7 +465,15 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>info@makhana.com</p>
+                            <p>info@biteonmakhana.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Certification</h4>
+                            <p>GI-Tagged Mithila Makhana<br>Authentic Origin Guaranteed</p>
                         </div>
                     </div>
                 </div>
@@ -211,12 +507,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Makhana</h3>
-                    <p>Pure and traditional food products for a healthy lifestyle.</p>
+                    <h3>Bite On</h3>
+                    <p class="footer-tagline">Premium Makhana from the Heart of Mithila</p>
+                    <p>GI-tagged authentic Mithila Makhana, bringing you the finest quality superfood with centuries-old traditions.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 
@@ -224,25 +522,26 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
+                        <li><a href="#about-makhana">About Makhana</a></li>
                         <li><a href="#products">Products</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#gi-tag">GI Tag Story</a></li>
+                        <li><a href="#market-trends">Market Trends</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Customer Service</h4>
+                    <h4>Product Benefits</h4>
                     <ul>
-                        <li><a href="#">Shipping Info</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="#about-makhana">Weight Management</a></li>
+                        <li><a href="#about-makhana">Diabetic Friendly</a></li>
+                        <li><a href="#about-makhana">Heart Health</a></li>
+                        <li><a href="#about-makhana">Athlete's Choice</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Newsletter</h4>
-                    <p>Subscribe to get updates on new products and offers.</p>
+                    <p>Subscribe to get updates on new products, health tips, and exclusive offers.</p>
                     <form class="newsletter-form">
                         <input type="email" placeholder="Enter your email">
                         <button type="submit" class="btn btn-primary">Subscribe</button>
@@ -251,7 +550,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Makhana. All rights reserved.</p>
+                <p>&copy; 2024 Bite On. All rights reserved. | GI-Tagged Mithila Makhana</p>
             </div>
         </div>
     </footer>
@@ -331,7 +630,5 @@
             </div>
         </div>
     </div>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
