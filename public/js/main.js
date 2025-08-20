@@ -10,7 +10,7 @@ const products = [
         originalPrice: 350,
         rating: 4.8,
         reviews: 156,
-        image: "public/images/products/raw-makhana.jpg",
+        image: "public/images/image3.jpeg",
         description: "Pure, unflavored Mithila Makhana roasted to perfection. Sourced directly from the GI-tagged Mithila region of Bihar, this premium makhana is perfect for traditional recipes and health-conscious consumers.",
         benefits: ["100% Natural", "GI-Tagged Mithila", "High Protein", "Low Calorie", "Gluten-Free", "Made in India"],
         features: [
@@ -41,7 +41,7 @@ const products = [
         originalPrice: 400,
         rating: 4.7,
         reviews: 89,
-        image: "public/images/products/tomato-herb-makhana.jpg",
+        image: "public/images/image4.jpeg",
         description: "Deliciously seasoned Mithila Makhana with authentic tomato herb flavor. Made with natural herbs and spices, this premium snack offers the perfect balance of taste and health benefits.",
         benefits: ["Authentic Spices", "GI-Tagged Mithila", "Ready to Eat", "No Preservatives", "High Protein", "Gluten-Free"],
         features: [
@@ -72,7 +72,7 @@ const products = [
         originalPrice: 400,
         rating: 4.6,
         reviews: 67,
-        image: "public/images/products/peri-peri-makhana.jpg",
+        image: "public/images/image5.jpeg",
         description: "Spicy and tangy Peri Peri flavored Makhana that packs a punch! Made with authentic African bird's eye chili and natural spices, perfect for those who love bold flavors.",
         benefits: ["Spicy Flavor", "GI-Tagged Mithila", "Ready to Eat", "No Preservatives", "High Protein", "Gluten-Free"],
         features: [
@@ -103,7 +103,7 @@ const products = [
         originalPrice: 750,
         rating: 4.9,
         reviews: 124,
-        image: "public/images/products/premium-mix.jpg",
+        image: "public/images/image6.jpeg",
         description: "Premium quality Makhana mix featuring multiple flavors in one pack. Perfect for gifting and premium consumption, this assortment showcases the variety and quality of Bite On products.",
         benefits: ["Premium Quality", "GI-Tagged Mithila", "Multiple Flavors", "Gift Ready", "High Protein", "Gluten-Free"],
         features: [
@@ -134,7 +134,7 @@ const products = [
         originalPrice: 480,
         rating: 4.7,
         reviews: 98,
-        image: "public/images/products/organic-makhana.jpg",
+        image: "public/images/image7.jpeg",
         description: "Certified organic Mithila Makhana grown without synthetic pesticides or fertilizers. This premium offering meets the highest standards of organic certification while maintaining the authentic taste of Mithila.",
         benefits: ["Organic Certified", "GI-Tagged Mithila", "Chemical Free", "Eco-Friendly", "High Protein", "Gluten-Free"],
         features: [
@@ -268,7 +268,7 @@ function createProductCard(product) {
     
     card.innerHTML = `
         <div class="product-image">
-            <img src="${product.image}" alt="${product.name}" onerror="this.src='https://via.placeholder.com/280x200/22c55e/ffffff?text=${encodeURIComponent(product.name)}'">
+            <img src="${product.image}" alt="${product.name}">
             ${product.badge ? `<div class="product-badge">${product.badge}</div>` : ''}
         </div>
         <div class="product-content">
