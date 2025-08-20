@@ -690,7 +690,7 @@ function validateForm(formData) {
     }
     
     return errors;
-}
+} 
 
 // Add CSS animation for notifications
 const style = document.createElement('style');
