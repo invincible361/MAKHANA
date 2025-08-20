@@ -887,6 +887,18 @@ p {
     margin-bottom: var(--spacing-xs);
 }
 
+.whatsapp-link {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.whatsapp-link:hover {
+    color: #128C7E;
+    text-decoration: underline;
+}
+
 .contact-form {
     background-color: var(--white);
     padding: var(--spacing-xl);
