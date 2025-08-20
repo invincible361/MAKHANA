@@ -1,8 +1,8 @@
 /* CSS Variables */
 :root {
-    --primary-color: #22c55e;
-    --primary-dark: #16a34a;
-    --primary-light: #dcfce7;
+    --primary-color: #3b82f6;
+    --primary-dark: #1d4ed8;
+    --primary-light: #dbeafe;
     --secondary-color: #f59e0b;
     --accent-color: #8b5cf6;
     
@@ -686,107 +686,7 @@ p {
     font-size: 0.9rem;
 }
 
-/* Cost Structure Section */
-.cost-structure {
-    padding: var(--spacing-xxl) 0;
-    background-color: var(--light-gray);
-}
 
-.cost-breakdown {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--spacing-xxl);
-}
-
-.cost-table {
-    background-color: var(--white);
-    padding: var(--spacing-xl);
-    border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow-md);
-}
-
-.cost-table h3 {
-    color: var(--dark-gray);
-    margin-bottom: var(--spacing-lg);
-    text-align: center;
-}
-
-.table-header {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: var(--spacing-md);
-    padding: var(--spacing-md);
-    background-color: var(--primary-light);
-    color: var(--primary-dark);
-    font-weight: 600;
-    border-radius: var(--border-radius);
-    margin-bottom: var(--spacing-md);
-}
-
-.table-row {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: var(--spacing-md);
-    padding: var(--spacing-md);
-    border-bottom: 1px solid var(--border-color);
-    align-items: center;
-}
-
-.table-row:last-child {
-    border-bottom: none;
-}
-
-.total-row {
-    background-color: var(--success-light);
-    font-weight: 600;
-    color: var(--success-color);
-    border-radius: var(--border-radius);
-}
-
-.profit-row {
-    background-color: var(--warning-light);
-    font-weight: 600;
-    color: var(--warning-color);
-    border-radius: var(--border-radius);
-}
-
-.product-cost-details {
-    background-color: var(--white);
-    padding: var(--spacing-xl);
-    border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow-md);
-}
-
-.product-cost-details h3 {
-    color: var(--dark-gray);
-    margin-bottom: var(--spacing-lg);
-    text-align: center;
-}
-
-.cost-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--spacing-md) 0;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.cost-item:last-child {
-    border-bottom: none;
-}
-
-.cost-item.total {
-    font-weight: 600;
-    color: var(--primary-color);
-    font-size: 1.1rem;
-    border-top: 2px solid var(--primary-color);
-    padding-top: var(--spacing-lg);
-}
-
-.cost-item small {
-    color: var(--gray);
-    font-size: 0.8rem;
-}
 
 /* Products Section */
 .products {
